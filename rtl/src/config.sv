@@ -130,7 +130,7 @@ package CONFIG;
     /***************************************************************
      * other(ここを変更すると動作しなくなる可能性があります)
      ***************************************************************/
-    localparam          SYNC_CPU_CLK            = 0;                // 動作クロックを CPU クロックと同期するか(0=同期/1=非同期)
+    localparam          SYNC_CPU_CLK            = 1;                // 動作クロックを CPU クロックと同期するか(1=同期/0=非同期)
     localparam          RAM_IF_EXPANSION_USES_FF= 0;                // RAM I/F 拡張動作に FF を使用(0=使用しない/1=使用する)
     localparam          SLOT_EXPANSION_USES_FF  = 1;                // SLOT 拡張に FF を使用(0=使用しない/1=使用する)
     localparam          SOUND_BIT_WIDTH         = 10;               // サウンド生成の量子化幅(bits)
