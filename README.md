@@ -3,7 +3,11 @@
 This is just swapping the port numbers in the cst file.
 I simplified it because I don't know what caused it not to work.
 
-I have created two types of files.
+I have created 3 types of files.
+
+### Runs at 27 MHz on-board(UMA module asynchronous).
+
+[tnCart_WT102d_27MHz_async.fs](https://github.com/buppu3/tnCart-WT102d/raw/main/rtl/impl/pnr/tnCart_WT102d_27MHz_async.fs)
 
 ### Runs at 27 MHz on-board.
 

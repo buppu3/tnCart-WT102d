@@ -238,6 +238,7 @@ module TNCART_BOARD_REV1_TOP (
     if(ENABLE_UMA) begin
         UMA #(
             .COUNT      (Uma.COUNT),
+            .SYNC_CLK_EN(0),
             .DIV        (30)                        // 108MHz/3.58MHz = 30
         ) u_uma (
             .RESET_n,
